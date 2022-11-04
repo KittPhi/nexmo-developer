@@ -1,17 +1,17 @@
 ---
-title: Voice-based Critical Alerts
+title: Voice Notifications
 products: voice/voice-api
-description: In this tutorial, you will learn how to contact a list of people by phone, convey a message, and see who confirmed that they had received the message. These voice-based critical alerts are more persistent than a text message, making your message more likely to be noticed. Additionally, with the recipient confirmation, you can be sure that your message made it through.
+description: In this guide, you will learn how to contact a list of people by phone, convey a message, and see who confirmed that they had received the message. These voice-based critical alerts are more persistent than a text message, making your message more likely to be noticed. Additionally, with the recipient confirmation, you can be sure that your message made it through.
 languages:
     - PHP
-navigation_weight: 9    
+navigation_weight: 4    
 ---
 
-# Broadcast Voice-based Critical Alerts
+# Voice Notifications
 
 A persistently ringing phone is harder to miss than a text message or push alert, so when you need to ensure that [critical  alerts](https://www.nexmo.com/use-cases/voice-based-critical-alerts) make it through to the right person a phone call is one of the best options available.
 
-In this tutorial, you will learn how to contact a list of people by phone, convey a message, and see who confirmed that they had received the message. These voice-based critical alerts are more persistent than a text message, making your message more likely to be noticed. Additionally, with the recipient confirmation, you can be sure that your message made it through.
+In this guide, you will learn how to contact a list of people by phone, convey a message, and see who confirmed that they had received the message. These voice-based critical alerts are more persistent than a text message, making your message more likely to be noticed. Additionally, with the recipient confirmation, you can be sure that your message made it through.
 
 ## Prerequisites
 
@@ -24,6 +24,7 @@ In order to work through this tutorial you need:
 
 ⚓ Create a Voice Application
 ⚓ Provision a Virtual Number
+
 ## Getting Started
 
 We'll start by registering a Vonage number to use with this application. Follow the instructions for [getting started with applications](https://developer.nexmo.com/concepts/guides/applications#getting-started-with-applications). This will walk you through buying a number, creating an application, and linking the two.
@@ -39,6 +40,7 @@ Once the application is created, configured and linked to a phone number, take a
 
 ⚓ Creating a Nexmo Call Control Object
 ⚓ Creating a call
+
 ## Teach Your Application to "Speak"
 
 When a human is connected to your application by phone, you control what the human hears with Vonage Call Control Objects (NCCOs). These can be used for both incoming and outgoing calls - once the call is in progress, it doesn't make much different which it was.
@@ -129,6 +131,7 @@ You can try a few different things when you call your number, and watch the log 
 Your application is ready to handle the calls once we make them so it's time to build the broadcasting part of the project.
 
 ⚓ Broadcasting to multiple people
+
 ## Make Outgoing Calls
 
 We need to [broadcast our message](https://www.nexmo.com/use-cases/voice-broadcast) out to multiple people to avoid a critical message only going to one person and being missed. The script therefore loops through all the contacts you set up in `config.php` and requests that each one gets a call.
@@ -263,11 +266,13 @@ if (isset($request['dtmf'])) {
 In this example we log what happened, but in your own applications you could store or respond to the user input to suit your own needs.
 
 ⚓ Conclusion
+
 ## Your Broadcast Call Application
 
 You now have a working voice-alert system where you can broadcast a text-to-speech or prerecorded message, log which calls are answered versus sent to voicemail, and receive confirmation of receipt from users who receive the message.
 
 ⚓ References
+
 ## Next Steps and Further Reading
 
 * [Using Ngrok for local development](/tools/ngrok)
