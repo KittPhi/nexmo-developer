@@ -1,10 +1,10 @@
 ---
-title: Legs and Conversations
+title: Conference Calling
 description: When a phone call is made or received by Vonage it is added to a conversation. A single conversation contains one or more phone calls (sometimes referred to as legs).
 navigation_weight: 2
 ---
 
-# Legs and Conversations
+# Conference Calling
 
 ## Overview
 
