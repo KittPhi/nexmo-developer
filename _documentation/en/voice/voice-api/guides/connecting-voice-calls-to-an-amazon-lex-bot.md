@@ -1,8 +1,8 @@
 ---
 title: Connecting Voice Calls to an Amazon Lex Bot
-description: "This guide will help you to start with an example Amazon Lex
+description: This guide will help you to start with an example Amazon Lex
   bot and interact with it from Voice Calls using provided sample reference
-  codes using Vonage Voice API. "
+  codes using Vonage Voice API.
 navigation-weight: 8
 ---
 
@@ -22,7 +22,7 @@ After that, we will set up a sample application using [Vonage Voice API](https:/
 
 The diagram below shows an overview of this sample integration architecture.
 
-![A diagram that outlines how Amazon Lex and the Vonage Voice API work together to create a voice bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/lex.png "A diagram that outlines how Amazon Lex and the Vonage Voice API work together to create a voice bot")
+![A diagram that outlines how Amazon Lex and the Vonage Voice API work together to create a voice bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/lex.png)
 
 ## Prerequisites
 
@@ -42,18 +42,18 @@ This tutorial also uses a virtual phone number. To purchase one, go to Numbers >
 
 Search for and then go to Amazon Lex service, click on **Create** to launch the bot setup process.
 
-![The Amazon Lex service dashboard](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-01.png "The Amazon Lex service dashboard")
+![The Amazon Lex service dashboard](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-01.png)
 
 As part of the setup process, you will be presented with the option to **Create Your Own** bot or to **Try a Sample.** You'll need a sample bot for this example, so click on **ScheduleAppointment**.
 
-![The Amazon Lex Bot Creation Dashboard](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-02.png "The Amazon Lex Bot Creation Dashboard")
+![The Amazon Lex Bot Creation Dashboard](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-02.png
 
 Next, you can set up the bot.
 
 * You may keep the pre-set bot name or enter a different one
 * make a note of the bot name (e.g. ScheduleAppointment), you will need it later
 
-![The Lex bot setup screen from Amazon Web Services](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-03a.png "The Lex bot setup screen from Amazon Web Services")
+![The Lex bot setup screen from Amazon Web Services](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-03a.png)
 
 * Select the desired language
 * Select *Yes* for Sentiment Analysis
@@ -61,21 +61,21 @@ Next, you can set up the bot.
 
 Once the settings are completed, click on **Create**.
 
-![Final steps in the bot setup process](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-03b.png "Final steps in the bot setup process")
+![Final steps in the bot setup process](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-03b.png)
 
 When the bot creation process has completed, you will see a screen similar to the one shown below.
 
-![The bot has been created successfully](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-04.png "The bot has been created successfully")
+![The bot has been created successfully](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-04.png)
 
 Next, to use your bot, you need to publish it by clicking **Publish**. You will then be asked to choose an alias for the bot. Aliases are good for naming different versions of your bot, such as the one you use for development or the one you use for production.
 
 Make a note of the alias name you have entered (e.g. staging). You will need it later.
 
-![Adding an alias name to your Amazon Lex Bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-05b.png "Adding an alias name to your Amazon Lex Bot")
+![Adding an alias name to your Amazon Lex Bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-05b.png)
 
 Clicking **Publish** once more will finalize the setup of your sample bot.
 
-![Notification that the bot has been published](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-05c.png "Notification that the bot has been published")
+![Notification that the bot has been published](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-05c.png)
 
 ## Set up the Lex Reference Connection
 
@@ -85,7 +85,7 @@ Clicking **Publish** once more will finalize the setup of your sample bot.
 
 ## Set up the Lex sample Voice API Application
 
-* Clone the [lex-sample-voice-application](https://github.com/nexmo-community/lex-sample-voice-application) repository on GitHub and follow the instructions as described in this repository.	 
+* Clone the [lex-sample-voice-application](https://github.com/nexmo-community/lex-sample-voice-application) repository on GitHub and follow the instructions as described in this repository. 
 * Select one of the deployment types as explained in the Running Lex sample Voice API application section.
 * Make a note of the phone number linked to your Voice API application as explained in the *Set Up Your Vonage Voice API Application Credentials and Phone Number* section, as it will be needed for the next step.
 
@@ -106,15 +106,15 @@ Let’s improve our example Lex bot by addressing both of those issues.
 
 On your AWS console, go to Amazon Lex, then your Lex bot. Click on the \[+] icon next to Intents.
 
-![The Lex Dashboard](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-a.png "The Lex Dashboard")
+![The Lex Dashboard](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-a.png)
 
 Next, click on **Create Intent**.
 
-![Creating an intent for a Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-b.png "Creating an intent for a Lex bot")
+![Creating an intent for a Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-b.png)
 
 You'll be prompted to enter a name for your new intent. Once you've chosen one, you can click on **Add** to proceed to the next step.
 
-![Entering a name for the intent](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-c.png "Entering a name for the intent")
+![Entering a name for the intent](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-c.png)
 
 Under **Sample utterances**:
 
@@ -122,27 +122,27 @@ Enter exactly `Good morning`, which is currently coded in the Lex sample Voice A
 
 Click on the \[+] icon to add the new utterance.
 
-![Adding new utterances to a Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-d.png "Adding new utterances to a Lex bot")
+![Adding new utterances to a Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-d.png)
 
 Next, under **Response** click on **Add Message**.
 
-![Adding a new message to the bot responder](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-f.png "Adding a new message to the bot responder")
+![Adding a new message to the bot responder](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-f.png)
 
 Enter one or more greeting messages. The content and number of messages are entirely up to you. For example, *Hi, how may I help you?*, or *Hello, what is the reason you are calling?*
 
 Do not forget to click on the \[+] icon for each entered message.
 
-![Adding a message response to a Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-g.png "Adding a message response to a Lex bot")
+![Adding a message response to a Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-g.png)
 
 After adding all desired messages, click on **Save Intent**.
 
-![Listing message responses](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-h.png "Listing message responses")
+![Listing message responses](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-h.png)
 
 Next, you will need to rebuild the bot by clicking on **Build**. After the build completes, go ahead and **Publish** your bot one more time, as you did before.
 
 You will be asked to enter an alias once again, and you can use the same alias as you did earlier for the sample bot.
 
-![Entering 'staging' as the alias for the Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-n.png "Entering 'staging' as the alias for the Lex bot")
+![Entering 'staging' as the alias for the Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-1-n.png)
 
 ## Testing the Update to the Lex Bot
 
@@ -158,11 +158,11 @@ You may then ask to set up an appointment (with this example Lex bot).
 
 On your AWS console, go to Amazon Lex, then your Lex bot. Click on**Edit.**
 
-![Editing the Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-2-a.png "Editing the Lex bot")
+![Editing the Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-2-a.png)
 
 Under **Response**, click on **Add Message**.
 
-![Adding a new message to the Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-2-b.png "Adding a new message to the Lex bot")
+![Adding a new message to the Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-2-b.png)
 
 Enter one or more response messages, for example:
 
@@ -172,13 +172,13 @@ Words inside the curly braces correspond to slots related to this intent.
 
 Then click on the \[+] icon to add your new response.
 
-![Adding a new message to the Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-2-c.png "Adding a new message to the Lex bot")
+![Adding a new message to the Lex bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-2-c.png)
 
 To finalize your new message, click on **Save Intent**.
 
 Finally, to commit these changes, click **Build** to rebuild the bot with the new changes. Then, you will need to, once again, publish a new version. You can keep the same alias as previous steps.
 
-![A successfully published bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-2-i.png "A successfully published bot")
+![A successfully published bot](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-2-i.png)
 
 ## Testing the Updated Lex Bot
 

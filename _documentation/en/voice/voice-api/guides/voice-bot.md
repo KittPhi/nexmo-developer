@@ -1,8 +1,6 @@
 ---
 title: Integrate Phone Calls to a Dialogflow Chatbot Via WebSockets
-description: "This guide will help you to start with an example Dialogflow
-  bot and interact with it from phone calls using provided sample reference
-  codes using Vonage Voice API. "
+description: This guide will help you to start with an example Dialogflow bot and interact with it from phone calls using provided sample reference codes using Vonage Voice API.
 navigation-weight: 8
 ---
 ## Introduction
@@ -11,7 +9,7 @@ This guide will show you how to make a phone call to a Dialogflow agent using Di
 
 The diagram below shows an overview of the architecture.
 
-![Architecture overview showing how the parts are connected](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/highlevel-15.29.19.png "Diagram of the call")
+![Architecture overview showing how the parts are connected](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/highlevel-15.29.19.png)
 
 ## Pre-requisites
 
@@ -34,7 +32,7 @@ An agent is a Dialogflow instance, which you can think of as your chatbot applic
 4. Under Google Project, click on the project ID name. For instance, `VonageDF`
    This will take you to the [Google Cloud console](https://console.cloud.google.com/)
 
-![Gif showing the steps to create the dialogflow Agent](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/dialogflow.gif "Gif showing the steps to create the dialogflow Agent")
+![Gif showing the steps to create the dialogflow Agent](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/dialogflow.gif)
 
 ## Create a Service Account on the Google Cloud Console
 
@@ -50,7 +48,7 @@ We will use the graphical user interface to manage our Google Cloud project and 
 6. Click on `Create and Continue`
 7. Under `Grant this service account access to project`, filter and select the role `Dialogflow API Admin`
 
-![Gif showing the seven above steps while creating the Service Account](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/googlecloud1.gif "Gif showing the seven above steps while creating the Service Account")
+![Gif showing the seven above steps while creating the Service Account](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/googlecloud1.gif)
 
 You are now taken back to the Service Accounts page
 
@@ -62,7 +60,7 @@ You are now taken back to the Service Accounts page
 13. Click on `Create`
 14. You can see one `.json` file was downloaded. We will add this file to the [Dialogflow Reference Connection GitHub repository](https://github.com/nexmo-community/dialogflow-reference-connection) we will clone in the next step
 
-![Gif showing the above steps to generate the keys](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/googlecloud2.gif "Gif showing the above steps to generate the keys")
+![Gif showing the above steps to generate the keys](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/googlecloud2.gif)
 
 ## Set Up the Dialogflow Reference Connection
 
@@ -94,7 +92,7 @@ For this guide, we will show examples using the [ngrok](https://ngrok.com) tunne
 8. Run `ngrok http 5000`
 9. Make a note of the URL found in the console (e.g. `xxxx.ngrok.io`). We will add this information in the  `DF_CONNECTING_SERVER` argument of  Set Up the Dialogflow Voice API Sample Application' part of the guide
 
-![The ngrok URL highlighted on the Visual Studio Code IDE](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/df_connecting_server.png "The ngrok URL highlighted on the IDE")
+![The ngrok URL highlighted on the Visual Studio Code IDE](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/df_connecting_server.png)
 
 **Option 2: Example with Heroku**
 
@@ -165,7 +163,7 @@ We will use ngrok to tunnel the connecting server which is interacting with our 
 10. Add the ngrok URL running on `dialogflow-sample-voice-application`  followed by  `/event` on the Event URL. Make sure HTTP POST is selected.
 11. Click on Save Changes
 
-![Vonage Dashboard](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/application.png "Vonage Dashboard")
+![Vonage Dashboard](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/application.png)
 
  **Option 2: Below Steps using Heroku** 
 
@@ -190,7 +188,7 @@ DF_CONNECTING_SERVER
 14. Do the same for  `/event` on the Event URL. Make sure HTTP POST is selected
 15. Click on Save Changes
 
-![Vonage Dashboard](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/screenshot-2021-09-04-at-17.53.26.png "Vonage Dashboard")
+![Vonage Dashboard](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/screenshot-2021-09-04-at-17.53.26.png)
 
 ## Improving the Dialogflow Agent
 
@@ -225,13 +223,13 @@ Let's improve the Default Welcome Intent, create an intent, outline the entities
 9. Under Actions and Parameters, tick `required` for `person`, `date` and `time`
 10. Add prompts for each one of the parameters because in case they haven't said that specific piece of information during the conversation, they'll be prompted to add them
 
-![Training phrases examples](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/trainingphrases.png "Training phrases examples")
+![Training phrases examples](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/trainingphrases.png)
 
 11. In the response, you can add the following: `Table booked for $person at $time on $date. Thank you!`
 12. Toggle `Set this intent as end of conversation`, below responses
 13. Click Save
 
-![Table Booker Intent Overview](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/dialogflow.png "Table Booker Intent Overview")
+![Table Booker Intent Overview](/content/blog/integrate-phone-calls-to-a-dialogflow-chatbot-via-websockets/dialogflow.png)
 
 ## Interact Via Voice With the Dialogflow Agent
 
