@@ -1,7 +1,7 @@
 ---
 title: Contact Center Intelligence
 description: Learn how to enhance your contact center solution with Voice API.
-navigation_weight: 9
+navigation_weight: 13
 ---
 
 # Contact Center Intelligence

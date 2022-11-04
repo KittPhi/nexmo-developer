@@ -1,7 +1,7 @@
 ---
 title: Fraud Prevention
 description: Protect your Voice API applications from fraud
-navigation_weight: 10
+navigation_weight: 17
 ---
 
 # Fraud Prevention

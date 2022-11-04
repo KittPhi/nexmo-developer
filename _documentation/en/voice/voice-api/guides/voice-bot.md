@@ -1,8 +1,11 @@
 ---
 title: Integrate Phone Calls to a Dialogflow Chatbot Via WebSockets
 description: This guide will help you to start with an example Dialogflow bot and interact with it from phone calls using provided sample reference codes using Vonage Voice API.
-navigation-weight: 8
+navigation-weight: 6
 ---
+
+# Integrate Phone Calls to a Dialogflow Chatbot Via WebSockets
+
 ## Introduction
 
 This guide will show you how to make a phone call to a Dialogflow agent using Dialogflow Essentials and a Vonage WebSockets integration.

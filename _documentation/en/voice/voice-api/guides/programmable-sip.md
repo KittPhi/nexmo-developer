@@ -1,5 +1,7 @@
 ---
 title: Programmable SIP
+description: Use Vonage SIP to forward inbound and send outbound Voice calls that use the Session Initiation Protocol.
+navigation_weight: 10
 ---
 
 # Programmable SIP

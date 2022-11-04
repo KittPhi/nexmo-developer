@@ -3,7 +3,7 @@ title: Connecting Voice Calls to an Amazon Lex Bot
 description: This guide will help you to start with an example Amazon Lex
   bot and interact with it from Voice Calls using provided sample reference
   codes using Vonage Voice API.
-navigation-weight: 8
+navigation-weight: 7
 ---
 
 # Connecting Voice Calls to an Amazon Lex Bot
