@@ -146,9 +146,9 @@ You will be asked to enter an alias once again, and you can use the same alias a
 
 ## Testing the Update to the Lex Bot
 
-Call the phone number you have linked to the application from the previous steps, and you will hear “Please wait”. That TTS from the Vonage API platform is played as soon as your call is answered by the platform.
+Call the phone number you have linked to the application from the previous steps, and you will hear "Please wait". That TTS from the Vonage API platform is played as soon as your call is answered by the platform.
 
-Once the WebSocket is set up, the Vonage API platform plays the TTS “Good morning” to the Lex bot (you as the caller will not hear that).
+Once the WebSocket is set up, the Vonage API platform plays the TTS "Good morning" to the Lex bot (you as the caller will not hear that).
 
 The Lex bot plays one of the response messages (of the Greeting intent). You hear it over the phone, confirming the connection with the Lex bot.
 
