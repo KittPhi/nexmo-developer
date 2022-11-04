@@ -1,15 +1,15 @@
 ---
-title: Private Voice Communication
+title: Masked Calling
 products: voice/voice-api
 description: Enable users to call each other, keeping their real numbers private.
 languages:
     - Node
-navigation_weight: 7  
+navigation_weight: 1  
 ---
 
-# Private Voice Communication
+# Masked Calling
 
-This use case shows you how to implement the idea described in [Private Voice Communication use case](https://www.nexmo.com/use-cases/private-voice-communication/). It teaches you how to build a voice proxy using Vonage's [Node Server SDK](https://github.com/Nexmo/nexmo-node), using virtual numbers to hide the real phone numbers of the participants. Full source code is also available in our [GitHub repo](https://github.com/Nexmo/node-voice-proxy).
+This guide shows you how to implement the idea described in the [Private Voice Communication use case](https://www.nexmo.com/use-cases/private-voice-communication/). It teaches you how to build a voice proxy using Vonage's [Node Server SDK](https://github.com/Nexmo/nexmo-node), using virtual numbers to hide the real phone numbers of the participants. Full source code is also available in our [GitHub repo](https://github.com/Nexmo/node-voice-proxy).
 
 ## Overview
 
@@ -36,23 +36,23 @@ There is a [GitHub repository containing the code](https://github.com/Nexmo/node
 
 To build the application, you perform the following steps:
 
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Code repository](#code-repository)
-- [Steps](#steps)
-- [Configuration](#configuration)
-- [Create a Voice API application](#create-a-voice-api-application)
-- [Create the web application](#create-the-web-application)
-- [Provision virtual numbers](#provision-virtual-numbers)
-- [Create a call](#create-a-call)
-  - [Validate the phone numbers](#validate-the-phone-numbers)
-  - [Map phone numbers to real numbers](#map-phone-numbers-to-real-numbers)
-  - [Send a confirmation SMS](#send-a-confirmation-sms)
-- [Handle inbound calls](#handle-inbound-calls)
-- [Reverse map real phone numbers to virtual numbers](#reverse-map-real-phone-numbers-to-virtual-numbers)
-- [Proxy the call](#proxy-the-call)
-- [Conclusion](#conclusion)
-- [Further information](#further-information)
+* [Overview](#overview)
+* [Prerequisites](#prerequisites)
+* [Code repository](#code-repository)
+* [Steps](#steps)
+* [Configuration](#configuration)
+* [Create a Voice API application](#create-a-voice-api-application)
+* [Create the web application](#create-the-web-application)
+* [Provision virtual numbers](#provision-virtual-numbers)
+* [Create a call](#create-a-call)
+  * [Validate the phone numbers](#validate-the-phone-numbers)
+  * [Map phone numbers to real numbers](#map-phone-numbers-to-real-numbers)
+  * [Send a confirmation SMS](#send-a-confirmation-sms)
+* [Handle inbound calls](#handle-inbound-calls)
+* [Reverse map real phone numbers to virtual numbers](#reverse-map-real-phone-numbers-to-virtual-numbers)
+* [Proxy the call](#proxy-the-call)
+* [Conclusion](#conclusion)
+* [Further information](#further-information)
 
 ## Configuration
 
@@ -186,9 +186,9 @@ Vonage->>UserB: SMS
 
 The following call:
 
-* [Validates the phone numbers](#validate-phone-numbers)
-* [Maps phone numbers to real numbers](#map-phone-numbers)
-* [Sends an confirmation SMS](#send-confirmation-sms)
+* [Validates the phone numbers](#validate-the-phone-numbers)
+* [Maps phone numbers to real numbers](#map-phone-numbers-to-real-numbers)
+* [Sends an confirmation SMS](#send-a-confirmation-sms)
 
 ```code
 source: '_code/voice_proxy.js'
@@ -208,7 +208,7 @@ to_line: 124
 
 ### Map phone numbers to real numbers
 
-Once you are sure that the phone numbers are valid, map each real number to a [virtual number](#provision-virtual-voice-numbers) and save the call:
+Once you are sure that the phone numbers are valid, map each real number to a [virtual number](#provision-virtual-numbers) and save the call:
 
 ```code
 source: '_code/voice_proxy.js'
@@ -234,7 +234,7 @@ In this use case each user has received the virtual number in an SMS. In other s
 
 ## Handle inbound calls
 
-When Vonage receives an inbound call to your virtual number it makes a request to the webhook endpoint you set when you [created a Voice application](#create-a-voice-application):
+When Vonage receives an inbound call to your virtual number it makes a request to the webhook endpoint you set when you [created a Voice application](#create-a-voice-api-application):
 
 ```sequence_diagram
 Participant App
