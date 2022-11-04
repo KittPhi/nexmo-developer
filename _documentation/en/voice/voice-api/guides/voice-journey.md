@@ -1,15 +1,15 @@
 ---
-title: Contact Center Augmentation
+title: Voice Journey
 products: voice/voice-api
-description: "This tutorial shows you how to add programmable assistance to your contact center"
+description: "This guide shows you how to add programmable assistance to your contact center"
 languages:
     - Node
-navigation_weight: 4    
+navigation_weight: 14    
 ---
 
-# Contact Center Augmentation
+# Voice Journey
 
-In this tutorial, you will implement the following contact center scenario:
+In this guide, you will implement the following contact center scenario:
 
 * The user calls your Vonage number,
 * The initial greeting is read out, and the user chooses an option from the menu provided,
@@ -20,7 +20,7 @@ For a better understanding of the flow, see [Call Flow](/voice/voice-api/guides/
 
 ## Prerequisites
 
-To complete this tutorial, you need:
+To complete this guide, you need:
 
 * A [Vonage account](https://ui.idp.vonage.com/ui/auth/registration?icid=tryitfree_adpdocs_nexmodashbdfreetrialsignup_inpagelink),
 * The [Vonage CLI](/application/vonage-cli) installed and set up,
@@ -50,7 +50,7 @@ source: _partials/vonage-cli/buy-number.md
 
 Use the CLI to create a Voice API application with the webhooks that will be responsible for answering a call on your Vonage number (`/webhooks/answer`) and logging call events (`/webhooks/events`), respectively.
 
-These webhooks need to be accessible by Vonage's servers, so in this tutorial you will use `ngrok` to expose your local development environment to the public Internet. [This article](/tools/ngrok) explains how to install and run `ngrok`.
+These webhooks need to be accessible by Vonage's servers, so in this guide you will use `ngrok` to expose your local development environment to the public Internet. [This article](/tools/ngrok) explains how to install and run `ngrok`.
 
 Run `ngrok` using the following command:
 
@@ -64,7 +64,7 @@ Make a note of the temporary host name that `ngrok` provides and use it in place
 vonage apps:create "CCApp" --voice_event_url=https://example.com/webhooks/event --voice_answer_url=https://example.com/webhooks/answer
 ```
 
-The command returns an application ID (which you should make a note of) and your private key information (which you can safely ignore for the purposes of this tutorial).
+The command returns an application ID (which you should make a note of) and your private key information (which you can safely ignore for the purposes of this guide).
 
 ## Link your number
 
@@ -282,7 +282,7 @@ app.post('/webhooks/input', (request, response) => {
   } else ...
 ```
 
-> In the real-life scenario, you should implement a cache to store the pairs of user/agent leg identifiers. The sample code shown in this tutorial will work properly only for one concurrent call.
+> In the real-life scenario, you should implement a cache to store the pairs of user/agent leg identifiers. The sample code shown in this guide will work properly only for one concurrent call.
 
 Extend your event webhook with REST API update call method with inline NCCO with `talk` and `input` actions to move the user leg to the survey part:
 
