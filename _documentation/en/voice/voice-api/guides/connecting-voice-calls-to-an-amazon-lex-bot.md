@@ -46,7 +46,7 @@ Search for and then go to Amazon Lex service, click on **Create** to launch the 
 
 As part of the setup process, you will be presented with the option to **Create Your Own** bot or to **Try a Sample.** You'll need a sample bot for this example, so click on **ScheduleAppointment**.
 
-![The Amazon Lex Bot Creation Dashboard](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-02.png
+![The Amazon Lex Bot Creation Dashboard](/content/blog/connecting-voice-calls-to-an-amazon-lex-bot/screen-02.png)
 
 Next, you can set up the bot.
 
