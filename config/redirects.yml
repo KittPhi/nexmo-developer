@@ -364,3 +364,4 @@
 "/use-cases/private-voice-communication": "/voice/voice-api/guides/masked-calling"
 "/use-cases/trancribe-amazon-api": "/voice/voice-api/guides/transcribe-amazon-api"
 "/use-cases/voice-alerts": "/voice/voice-api/guides/voice-notifications"
+"/voice/sip/concepts/programmable-sip": "/voice/voice-api/guides/programmable-sip"
