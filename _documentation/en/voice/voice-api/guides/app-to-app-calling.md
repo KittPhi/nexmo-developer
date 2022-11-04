@@ -13,7 +13,7 @@ Using the Conversation API and the Client SDK you can build complete application
 Client SDK enables communications across multiple [Channels](/conversation/concepts/channel) including voice. This can be used to make a phone call from one app to another app; a tutorial is available in the following languages:
 
 * [JavaScript](/client-sdk/tutorials/app-to-phone/introduction/javascript)
-* [Kotlin](/client-sdk/tutorials/app-to-phone/introduction/javascript)
-* [Java](/client-sdk/tutorials/app-to-phone/introduction/javascript)
-* [Swift](/client-sdk/tutorials/app-to-phone/introduction/javascript)
-* [Objective-C](/client-sdk/tutorials/app-to-phone/introduction/javascript)
+* [Kotlin](/client-sdk/tutorials/app-to-phone/introduction/kotlin)
+* [Java](/client-sdk/tutorials/app-to-phone/introduction/java)
+* [Swift](/client-sdk/tutorials/app-to-phone/introduction/swift)
+* [Objective-C](/client-sdk/tutorials/app-to-phone/introduction/objective_c)
