@@ -17,7 +17,7 @@ The Meetings API (Beta) allows you to integrate real-time, high-quality interact
 * [Meetings API or Video API?](#meetings-api-or-video-api): Determine which API is more suited to your project.
 * [Terminology](#terminology): Key terms and definitions for the Meetings API.
 * [Room Types](#room-types): Defines the types of rooms available.
-* [Website Embed](#website-embed): Use an iFrame to embed a Meeting into a website.
+* [Website & App Embed](#website-and-app-embed): Use an iFrame to embed a Meeting into a website or application.
 * [Code Snippets](#code-snippets): Code and instructions for using the Meetings API.
 * [Reference](#reference): Further information about the Meetings API.
 * [Pricing](#pricing): Information on the costs for using the Meetings API.
@@ -65,9 +65,9 @@ There are two room types:
   * Will require you to specify an expiration date (in ISO format).
   * Enables you to request that a room is automatically deleted ten minutes after the last participant leaves the room.
 
-## Website Embed
+## Website and App Embed
 
-A meeting created through the API can be embedded into your website. To do this, generate the meeting link and create an iFrame using that link:
+A meeting created through the API can be embedded into your website and mobile applications. To do this, generate the meeting link and create an iFrame using that link:
 
 ``` HTML
 <iframe src="Meeting link here" title="Embedded Meeting" allow="camera;microphone"></iframe>

@@ -1,5 +1,163 @@
 [
   {
+    "title": "Low-Code and No-Code: What Option Is Best for You?",
+    "description": "This post hopes to clear up the difference between Low-code and No-code and will help you in deciding what approach is best for you.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/low-code-and-no-code-what-option-is-best-for-you/low-code_no-code.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2022-11-03 09:34:19 UTC",
+    "updated_at": "2022-11-03 09:34:20 UTC",
+    "category": {
+      "name": "Inspiration",
+      "plural": "Ideas & Inspiration",
+      "slug": "inspiration",
+      "color": "#3298c4"
+    },
+    "tags": [
+      "ai-studio",
+      "low-code",
+      "no-code"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/03/low-code-and-no-code-what-option-is-best-for-you",
+    "filename": "low-code-and-no-code-what-option-is-best-for-you"
+  },
+  {
+    "title": "Introducing the Laravel Vonage Helpdesk",
+    "description": "The best way of showing Vonage APIs in action is through examples: welcome to our PHP App!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/introducing-the-laravel-vonage-helpdesk/laravel-vonage-helpdesk.png",
+    "author": {
+      "bio": "A trained actor with a dissertation on standup comedy, I came into PHP development via. the meetup scene. You can find me speaking and writing on tech, or playing/buying odd records from my vinyl collection.",
+      "hidden": false,
+      "image_url": "/content/images/jim_new.jpg",
+      "name": "James Seconde",
+      "website_url": "https://devtheatre.net",
+      "linkedin_url": "https://www.linkedin.com/in/secondej/",
+      "twitter": "@SecondeJ",
+      "github_url": "https://github.com/SecondeJK",
+      "spotlight": false,
+      "title": "Senior PHP Developer Advocate",
+      "email": "jim.seconde@vonage.com",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "james-seconde"
+    },
+    "published": true,
+    "published_at": "2022-11-01 09:59:56 UTC",
+    "updated_at": "2022-11-01 09:59:58 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "php",
+      "laravel"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/01/introducing-the-laravel-vonage-helpdesk",
+    "filename": "introducing-the-laravel-vonage-helpdesk"
+  },
+  {
+    "title": "Build a Vonage Message Custom Activity with Salesforce Marketing Cloud",
+    "description": "Learn about a new starter template for creating a Vonage Messages API activity in the Salesforce Marketing Cloud Journey Builder",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/build-a-vonage-message-custom-activity-with-salesforce-marketing-cloud/salesforce_messagesapi.png",
+    "author": {
+      "team": true,
+      "alumni": false,
+      "spotlight": false,
+      "noteworthy": false,
+      "hidden": false,
+      "name": "Kitt Phi",
+      "image_url": "/content/images/kitt.png",
+      "bio": "Kitt is a Customer Solutions Engineer for Vonage. He enjoys developing NodeJS integrations into various Cloud Platform Services. In his spare time, he enjoys riding his UTV through the Organ Mountains and Kayaking through out the USA.",
+      "short_name": "kitt-phi"
+    },
+    "published": true,
+    "published_at": "2022-10-27 08:39:42 UTC",
+    "updated_at": "2022-10-27 08:39:44 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "message-api",
+      "salesforce",
+      "api"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/10/27/build-a-vonage-message-custom-activity-with-salesforce-marketing-cloud",
+    "filename": "build-a-vonage-message-custom-activity-with-salesforce-marketing-cloud"
+  },
+  {
+    "title": "Q3 2022: Third Quarter in Review",
+    "description": "A summary of product updates and feature releases for Q3 2022.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/q3-2022-third-quarter-in-review/quaterly-release.png",
+    "author": {
+      "hidden": false,
+      "image_url": "https://gravatar.com/avatar/5fab056e4210b8e867e8de071a4eeb45?s=400",
+      "name": "Edmond Mensah",
+      "website_url": "https://www.eddymens.com",
+      "linkedin_url": "https://www.linkedin.com/in/eddymens",
+      "github_url": "https://github.com/eddymens",
+      "spotlight": false,
+      "title": "Technical Writer",
+      "team": true,
+      "alumni": false,
+      "short_name": "edmond-mensah"
+    },
+    "published": true,
+    "published_at": "2022-10-20 09:12:20 UTC",
+    "updated_at": "2022-10-20 09:12:20 UTC",
+    "category": {
+      "name": "Announcement",
+      "plural": "Announcements",
+      "slug": "announcement",
+      "color": "#4cc3d2"
+    },
+    "tags": [
+      "video-api",
+      "vonage-ai-studio",
+      "SDKs",
+      "messages-api"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/10/20/q3-2022-third-quarter-in-review",
+    "filename": "q3-2022-third-quarter-in-review"
+  },
+  {
     "title": "5 Tips and Tricks for Working With the Vonage API Dashboard",
     "description": "5 quick tips everyone can use for the dashboard that includes analytics, managing team member access, and more.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/5-tips-and-tricks-for-working-with-the-vonage-api-dashboard/tips-and-tricks.png",
@@ -8903,39 +9061,6 @@
     "filename": "technical-guide-for-us-short-code-api-deprecation-1"
   },
   {
-    "title": "Setting up CI/CD with Github Actions",
-    "description": "This article walks you through the process of using github actions to build CI/CD flows.",
-    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/setting-up-ci-cd-with-github-actions/Blog_GitHub-Desktop_1200x600.png",
-    "author": {
-      "bio": "Yonatan has been involved in some awesome projects in the academy and the industry - from C/C++ through Matlab to PHP and javascript. Former CTO at Webiks and Software Architect at WalkMe. Currently he is a software architect at Vonage and an egghead instructor.",
-      "image_url": "/content/images/yonatankra.png",
-      "name": "Yonatan Kra",
-      "website_url": "https://yonatankra.com",
-      "linkedin_url": "https://www.linkedin.com/in/jonathan-kra-99a5bb87/",
-      "twitter": "YonatanKra",
-      "github_url": "https://github.com/YonatanKra",
-      "title": "Vonage Software Architect",
-      "team": true,
-      "short_name": "yonatankra"
-    },
-    "published": true,
-    "published_at": "2021-02-17 13:34:35 UTC",
-    "updated_at": "2021-02-17 13:34:35 UTC",
-    "category": {
-      "name": "Engineering",
-      "plural": "Posts by Engineering",
-      "slug": "engineering",
-      "color": "#669fc4"
-    },
-    "tags": [
-      "github"
-    ],
-    "canonical": "",
-    "locale": "en",
-    "link": "blog/21/02/17/setting-up-ci-cd-with-github-actions",
-    "filename": "setting-up-ci-cd-with-github-actions"
-  },
-  {
     "title": "Quality and Velocity: Our Seven Year Journey to 99.999% Availability",
     "description": "How can your teams take a stronger approach to software testing without compromising on speed and product growth? The growing software developer in test team defined a solution.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/quality-and-velocity-our-seven-year-journey-to-availability/Blog_1200x600-1.png",
@@ -8993,6 +9118,39 @@
     "locale": "en",
     "link": "blog/21/02/17/introducing-rxzu-an-engine-for-intuitive-graphs",
     "filename": "introducing-rxzu-an-engine-for-intuitive-graphs"
+  },
+  {
+    "title": "Setting up CI/CD with Github Actions",
+    "description": "This article walks you through the process of using github actions to build CI/CD flows.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/setting-up-ci-cd-with-github-actions/Blog_GitHub-Desktop_1200x600.png",
+    "author": {
+      "bio": "Yonatan has been involved in some awesome projects in the academy and the industry - from C/C++ through Matlab to PHP and javascript. Former CTO at Webiks and Software Architect at WalkMe. Currently he is a software architect at Vonage and an egghead instructor.",
+      "image_url": "/content/images/yonatankra.png",
+      "name": "Yonatan Kra",
+      "website_url": "https://yonatankra.com",
+      "linkedin_url": "https://www.linkedin.com/in/jonathan-kra-99a5bb87/",
+      "twitter": "YonatanKra",
+      "github_url": "https://github.com/YonatanKra",
+      "title": "Vonage Software Architect",
+      "team": true,
+      "short_name": "yonatankra"
+    },
+    "published": true,
+    "published_at": "2021-02-17 13:34:35 UTC",
+    "updated_at": "2021-02-17 13:34:35 UTC",
+    "category": {
+      "name": "Engineering",
+      "plural": "Posts by Engineering",
+      "slug": "engineering",
+      "color": "#669fc4"
+    },
+    "tags": [
+      "github"
+    ],
+    "canonical": "",
+    "locale": "en",
+    "link": "blog/21/02/17/setting-up-ci-cd-with-github-actions",
+    "filename": "setting-up-ci-cd-with-github-actions"
   },
   {
     "title": "Announcing Vonage Ruby SDK Version 7.3.0",
@@ -11605,7 +11763,7 @@
     },
     "published": true,
     "published_at": "2020-09-22 13:00:32 UTC",
-    "updated_at": "2021-05-10 22:21:42 UTC",
+    "updated_at": "2021-10-27 22:21:42 UTC",
     "category": {
       "name": "Tutorial",
       "plural": "Tutorials",
@@ -13049,6 +13207,36 @@
     "filename": "use-a-green-screen-in-javascript-with-vonage-video"
   },
   {
+    "title": "Aggiungi l’Autenticazione Forte PSD2 alla Tua App",
+    "description": "Scopri come aggiungere alla tua app l'autenticazione dei pagamenti online \"Secure Customer Authentication\", noto anche come PSD2, con Vonage Verify API",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/add-strong-psd2-authentication-to-your-application/Blog_Strong-Customer-Authentication_1200x600-2.png",
+    "author": {
+      "team": false,
+      "spotlight": false,
+      "name": "Lorna Mitchell",
+      "bio": "Lorna is a software engineer with an incurable blogging habit. She tries to tame words and code in equal measure.",
+      "twitter": "lornajane",
+      "image_url": "/content/images/lornajane.jpg",
+      "alumni": true,
+      "short_name": "lornajane"
+    },
+    "published": true,
+    "published_at": "2020-06-23 07:53:47 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "security",
+      "verify-api"
+    ],
+    "locale": "it",
+    "link": "blog/it/20/06/23/add-strong-psd2-authentication-to-your-application",
+    "filename": "add-strong-psd2-authentication-to-your-application"
+  },
+  {
     "title": "Add Strong PSD2 Authentication to Your Application",
     "description": "Find out how you can bring your payment authorisations up to PSD2 standards using the Vonage Verify API to confirm user identity",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/add-strong-psd2-authentication-to-your-application/Blog_Strong-Customer-Authentication_1200x600-2.png",
@@ -13078,36 +13266,6 @@
     ],
     "locale": "en",
     "link": "blog/20/06/23/add-strong-psd2-authentication-to-your-application",
-    "filename": "add-strong-psd2-authentication-to-your-application"
-  },
-  {
-    "title": "Aggiungi l’Autenticazione Forte PSD2 alla Tua App",
-    "description": "Scopri come aggiungere alla tua app l'autenticazione dei pagamenti online \"Secure Customer Authentication\", noto anche come PSD2, con Vonage Verify API",
-    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/add-strong-psd2-authentication-to-your-application/Blog_Strong-Customer-Authentication_1200x600-2.png",
-    "author": {
-      "team": false,
-      "spotlight": false,
-      "name": "Lorna Mitchell",
-      "bio": "Lorna is a software engineer with an incurable blogging habit. She tries to tame words and code in equal measure.",
-      "twitter": "lornajane",
-      "image_url": "/content/images/lornajane.jpg",
-      "alumni": true,
-      "short_name": "lornajane"
-    },
-    "published": true,
-    "published_at": "2020-06-23 07:53:47 UTC",
-    "category": {
-      "name": "Tutorial",
-      "plural": "Tutorials",
-      "slug": "tutorial",
-      "color": "#d6219c"
-    },
-    "tags": [
-      "security",
-      "verify-api"
-    ],
-    "locale": "it",
-    "link": "blog/it/20/06/23/add-strong-psd2-authentication-to-your-application",
     "filename": "add-strong-psd2-authentication-to-your-application"
   },
   {

@@ -6,6 +6,12 @@ navigation_weight: 0
 
 # Release Notes
 
+## Version 9.1.5 - October 24, 2022
+
+### Fixes
+
+- Fix bug on user re invited/joined to a conversation
+
 ## Version 9.1.4 - September 23, 2022
 
 ### Changes

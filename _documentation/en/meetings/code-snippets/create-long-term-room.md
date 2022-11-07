@@ -18,7 +18,7 @@ How to setup a long term room using the Meetings API.
 
 ## Setup POST Request
 
-**POST Endpoint**: The (POST) endpoint when creating a meeting room is: ``https://api.vonage.com/beta/meetings/rooms``.
+**POST Endpoint**: The (POST) endpoint when creating a meeting room is: ``https://api-us.vonage.com/beta/meetings``.
 
 **Required Headers**: You need to add the ``Content-Type`` to your headers: ``Content-Type: application/json``.
 
