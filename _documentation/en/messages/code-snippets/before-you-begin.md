@@ -11,7 +11,7 @@ This topic provides some background information on using the code snippets.
 
 Code snippets are short pieces of code you can reuse in your own applications.
 
-The code snippets utilize code from the [Vonage Node Code Snippets](https://github.com/Nexmo/nexmo-node-code-snippets) and [Vonage Curl Code Snippets](https://github.com/Nexmo/nexmo-curl-code-snippets) repositories.
+The code snippets utilize code from the [Vonage Node Code Snippets](h[ttps://github.com/Nexmo/nexmo-node-code-snippets)](https://github.com/Vonage/vonage-node-code-snippets) and [Vonage Curl Code Snippets](h[ttps://github.com/Nexmo/nexmo-curl-code-snippets)](https://github.com/Vonage/vonage-curl-code-snippets) repositories.
 
 Please read this information carefully, so you can best use the code snippets.
 
